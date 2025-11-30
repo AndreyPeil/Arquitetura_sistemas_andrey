@@ -2,7 +2,7 @@
 curl -Method GET "http://localhost:8000/users"
 
 # POST /users
-curl -Method POST "http://localhost:8000/users" -Headers @{ "Content-Type"="application/json" } -Body '{ "name": "João Silva", "email": "loaloa@example.com" }'
+curl -Method POST "http://localhost:8000/users" -Headers @{ "Content-Type"="application/json" } -Body '{ "name": "Teste Silva", "email": "testedasilva@example.com" }'
 
 # GET /products
 curl -Method GET "http://localhost:8000/products"
